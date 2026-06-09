@@ -31,12 +31,17 @@ log_list = ["2026-06-08 08:15:23 INFO User login successful - userId=1045",
     "2026-06-08 08:50:14 INFO User logout - userId=1780", 
 ]
 
-# Exercício: Criar um dicionário para contar frequências de mensagens em uma lista simulada de log
-dicionario = {}
-count = 0
-for log in log_list:
-  dicionario['log_'+str(count)] = log
-  count = count + 1
+# Exercício: Criar um dicionário para contar frequências de mensagens em uma lista simulada de logas
 
-for termo in dicionario:
-  print(termo + ' : ' + dicionario.get(termo))
+word = input("digite a palavra que voce quer pesquisar a frequencia nos logs:")
+
+dictionary = {}
+count = 0
+for log in log_list: 
+  log_verify_list = log.split()
+  for log_verify in log_verify_list:
+    if log_verify == word:
+      count = count + 1
+
+dictionary[word] = count
+print(dictionary)

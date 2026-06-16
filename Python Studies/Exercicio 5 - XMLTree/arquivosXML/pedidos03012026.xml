@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedidos>
+    <pedido id="1008">
+        <cliente>
+            <nome>Ricardo Almeida</nome>
+            <email>ricardo.almeida@email.com</email>
+            <cidade>Fortaleza</cidade>
+        </cliente>
+        <itens>
+            <item>
+                <produto>Tablet</produto>
+                <quantidade>1</quantidade>
+                <preco>1599.90</preco>
+            </item>
+        </itens>
+        <status>PAGO</status>
+    </pedido>
+
+    <pedido id="1009">
+        <cliente>
+            <nome>Patrícia Souza</nome>
+            <email>patricia.souza@email.com</email>
+            <cidade>Brasília</cidade>
+        </cliente>
+        <itens>
+            <item>
+                <produto>Mouse Sem Fio</produto>
+                <quantidade>2</quantidade>
+                <preco>89.90</preco>
+            </item>
+            <item>
+                <produto>Teclado Sem Fio</produto>
+                <quantidade>1</quantidade>
+                <preco>179.90</preco>
+            </item>
+        </itens>
+        <status>CANCELADO</status>
+    </pedido>
+
+    <pedido id="1010">
+        <cliente>
+            <nome>Eduardo Martins</nome>
+            <email>eduardo.martins@email.com</email>
+            <cidade>Manaus</cidade>
+        </cliente>
+        <itens>
+            <item>
+                <produto>Cadeira Gamer</produto>
+                <quantidade>1</quantidade>
+                <preco>1299.90</preco>
+            </item>
+            <item>
+                <produto>Suporte para Monitor</produto>
+                <quantidade>2</quantidade>
+                <preco>149.90</preco>
+            </item>
+        </itens>
+        <status>ENVIADO</status>
+    </pedido>
+</pedidos>

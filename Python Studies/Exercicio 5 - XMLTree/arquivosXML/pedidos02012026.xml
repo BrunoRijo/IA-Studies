@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedidos>
+    <pedido id="1005">
+        <cliente>
+            <nome>Fernanda Lima</nome>
+            <email>fernanda.lima@email.com</email>
+            <cidade>Recife</cidade>
+        </cliente>
+        <itens>
+            <item>
+                <produto>SSD 1TB</produto>
+                <quantidade>1</quantidade>
+                <preco>549.90</preco>
+            </item>
+        </itens>
+        <status>PAGO</status>
+    </pedido>
+
+    <pedido id="1006">
+        <cliente>
+            <nome>Lucas Pereira</nome>
+            <email>lucas.pereira@email.com</email>
+            <cidade>Porto Alegre</cidade>
+        </cliente>
+        <itens>
+            <item>
+                <produto>Webcam HD</produto>
+                <quantidade>1</quantidade>
+                <preco>199.90</preco>
+            </item>
+            <item>
+                <produto>Microfone USB</produto>
+                <quantidade>1</quantidade>
+                <preco>349.90</preco>
+            </item>
+        </itens>
+        <status>ENVIADO</status>
+    </pedido>
+
+    <pedido id="1007">
+        <cliente>
+            <nome>Juliana Rocha</nome>
+            <email>juliana.rocha@email.com</email>
+            <cidade>Salvador</cidade>
+        </cliente>
+        <itens>
+            <item>
+                <produto>Impressora</produto>
+                <quantidade>1</quantidade>
+                <preco>799.00</preco>
+            </item>
+        </itens>
+        <status>EM_PROCESSAMENTO</status>
+    </pedido>
+</pedidos>

@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pedidos><pedido id="1001">
+        <cliente>
+            <nome>João Silva</nome>
+            <email>joao.silva@email.com</email>
+            <cidade>São Paulo</cidade>
+        </cliente>
+        <itens>
+            <item>
+                <produto>Mouse Gamer</produto>
+                <quantidade>1</quantidade>
+                <preco>149.90</preco>
+            </item>
+            <item>
+                <produto>Teclado Mecânico</produto>
+                <quantidade>1</quantidade>
+                <preco>329.90</preco>
+            </item>
+        </itens>
+        <status>PAGO</status>
+    </pedido>
+
+    <pedido id="1002">
+        <cliente>
+            <nome>Maria Oliveira</nome>
+            <email>maria.oliveira@email.com</email>
+            <cidade>Rio de Janeiro</cidade>
+        </cliente>
+        <itens>
+            <item>
+                <produto>Monitor 27"</produto>
+                <quantidade>2</quantidade>
+                <preco>1199.99</preco>
+            </item>
+        </itens>
+        <status>EM_PROCESSAMENTO</status>
+    </pedido>
+
+    <pedido id="1003">
+        <cliente>
+            <nome>Carlos Santos</nome>
+            <email>carlos.santos@email.com</email>
+            <cidade>Belo Horizonte</cidade>
+        </cliente>
+        <itens>
+            <item>
+                <produto>Notebook</produto>
+                <quantidade>1</quantidade>
+                <preco>4899.00</preco>
+            </item>
+            <item>
+                <produto>Mochila</produto>
+                <quantidade>1</quantidade>
+                <preco>199.90</preco>
+            </item>
+        </itens>
+        <status>ENVIADO</status>
+    </pedido>
+
+    <pedido id="1004">
+        <cliente>
+            <nome>Ana Costa</nome>
+            <email>ana.costa@email.com</email>
+            <cidade>Curitiba</cidade>
+        </cliente>
+        <itens>
+            <item>
+                <produto>Headset</produto>
+                <quantidade>1</quantidade>
+                <preco>259.90</preco>
+            </item>
+        </itens>
+        <status>CANCELADO</status>
+    </pedido>
+<pedido id="1005">
+        <cliente>
+            <nome>Fernanda Lima</nome>
+            <email>fernanda.lima@email.com</email>
+            <cidade>Recife</cidade>
+        </cliente>
+        <itens>
+            <item>
+                <produto>SSD 1TB</produto>
+                <quantidade>1</quantidade>
+                <preco>549.90</preco>
+            </item>
+        </itens>
+        <status>PAGO</status>
+    </pedido>
+
+    <pedido id="1006">
+        <cliente>
+            <nome>Lucas Pereira</nome>
+            <email>lucas.pereira@email.com</email>
+            <cidade>Porto Alegre</cidade>
+        </cliente>
+        <itens>
+            <item>
+                <produto>Webcam HD</produto>
+                <quantidade>1</quantidade>
+                <preco>199.90</preco>
+            </item>
+            <item>
+                <produto>Microfone USB</produto>
+                <quantidade>1</quantidade>
+                <preco>349.90</preco>
+            </item>
+        </itens>
+        <status>ENVIADO</status>
+    </pedido>
+
+    <pedido id="1007">
+        <cliente>
+            <nome>Juliana Rocha</nome>
+            <email>juliana.rocha@email.com</email>
+            <cidade>Salvador</cidade>
+        </cliente>
+        <itens>
+            <item>
+                <produto>Impressora</produto>
+                <quantidade>1</quantidade>
+                <preco>799.00</preco>
+            </item>
+        </itens>
+        <status>EM_PROCESSAMENTO</status>
+    </pedido>
+<pedido id="1008">
+        <cliente>
+            <nome>Ricardo Almeida</nome>
+            <email>ricardo.almeida@email.com</email>
+            <cidade>Fortaleza</cidade>
+        </cliente>
+        <itens>
+            <item>
+                <produto>Tablet</produto>
+                <quantidade>1</quantidade>
+                <preco>1599.90</preco>
+            </item>
+        </itens>
+        <status>PAGO</status>
+    </pedido>
+
+    <pedido id="1009">
+        <cliente>
+            <nome>Patrícia Souza</nome>
+            <email>patricia.souza@email.com</email>
+            <cidade>Brasília</cidade>
+        </cliente>
+        <itens>
+            <item>
+                <produto>Mouse Sem Fio</produto>
+                <quantidade>2</quantidade>
+                <preco>89.90</preco>
+            </item>
+            <item>
+                <produto>Teclado Sem Fio</produto>
+                <quantidade>1</quantidade>
+                <preco>179.90</preco>
+            </item>
+        </itens>
+        <status>CANCELADO</status>
+    </pedido>
+
+    <pedido id="1010">
+        <cliente>
+            <nome>Eduardo Martins</nome>
+            <email>eduardo.martins@email.com</email>
+            <cidade>Manaus</cidade>
+        </cliente>
+        <itens>
+            <item>
+                <produto>Cadeira Gamer</produto>
+                <quantidade>1</quantidade>
+                <preco>1299.90</preco>
+            </item>
+            <item>
+                <produto>Suporte para Monitor</produto>
+                <quantidade>2</quantidade>
+                <preco>149.90</preco>
+            </item>
+        </itens>
+        <status>ENVIADO</status>
+    </pedido>
+</pedidos>

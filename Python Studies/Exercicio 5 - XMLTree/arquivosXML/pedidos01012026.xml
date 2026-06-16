@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedidos>
+    <pedido id="1001">
+        <cliente>
+            <nome>João Silva</nome>
+            <email>joao.silva@email.com</email>
+            <cidade>São Paulo</cidade>
+        </cliente>
+        <itens>
+            <item>
+                <produto>Mouse Gamer</produto>
+                <quantidade>1</quantidade>
+                <preco>149.90</preco>
+            </item>
+            <item>
+                <produto>Teclado Mecânico</produto>
+                <quantidade>1</quantidade>
+                <preco>329.90</preco>
+            </item>
+        </itens>
+        <status>PAGO</status>
+    </pedido>
+
+    <pedido id="1002">
+        <cliente>
+            <nome>Maria Oliveira</nome>
+            <email>maria.oliveira@email.com</email>
+            <cidade>Rio de Janeiro</cidade>
+        </cliente>
+        <itens>
+            <item>
+                <produto>Monitor 27"</produto>
+                <quantidade>2</quantidade>
+                <preco>1199.99</preco>
+            </item>
+        </itens>
+        <status>EM_PROCESSAMENTO</status>
+    </pedido>
+
+    <pedido id="1003">
+        <cliente>
+            <nome>Carlos Santos</nome>
+            <email>carlos.santos@email.com</email>
+            <cidade>Belo Horizonte</cidade>
+        </cliente>
+        <itens>
+            <item>
+                <produto>Notebook</produto>
+                <quantidade>1</quantidade>
+                <preco>4899.00</preco>
+            </item>
+            <item>
+                <produto>Mochila</produto>
+                <quantidade>1</quantidade>
+                <preco>199.90</preco>
+            </item>
+        </itens>
+        <status>ENVIADO</status>
+    </pedido>
+
+    <pedido id="1004">
+        <cliente>
+            <nome>Ana Costa</nome>
+            <email>ana.costa@email.com</email>
+            <cidade>Curitiba</cidade>
+        </cliente>
+        <itens>
+            <item>
+                <produto>Headset</produto>
+                <quantidade>1</quantidade>
+                <preco>259.90</preco>
+            </item>
+        </itens>
+        <status>CANCELADO</status>
+    </pedido>
+</pedidos>
